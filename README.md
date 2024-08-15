@@ -21,9 +21,9 @@ The Div CSharp Mapper Generator is a powerful tool designed to automate the crea
 
 You can either compile the Div CSharp Mapper Generator from source or download the precompiled binary from the GitHub releases page.
 
-### Usage
+## Usage
 
-1. Create a JSON Configuration File
+### 1. Create a JSON Configuration File
 
 Create a mapper.json file in the root of your project. This file defines the mappings you wish to generate.
 
@@ -35,8 +35,8 @@ Create a mapper.json file in the root of your project. This file defines the map
       "mapper": "MapperClassNameToGenerate",
       "outputFolder": "output/folder/of/generated/mapper",
       "classPairs": [
-        [ "Relative/Path/To/ModelClassX.cs", "Relative/Path/To/ModelClassX.cs" ] // clone
-        [ "Relative/Path/To/ModelClassA.cs", "Relative/Path/To/ModelClassB.cs" ] // map
+        [ "Relative/Path/To/ModelClassX.cs", "Relative/Path/To/ModelClassX.cs" ] // to generate Clone method
+        [ "Relative/Path/To/ModelClassA.cs", "Relative/Path/To/ModelClassB.cs" ] // to generate Map method
       ]
     }
   ]
@@ -48,37 +48,42 @@ Create a mapper.json file in the root of your project. This file defines the map
 - `outputFolder`: The directory where the generated mapper file will be placed.
 - `classPairs`: An array of class pairs to map. Identical class pairs will generate a cloning method.
 
-2. Run the Mapper Generator
+### 2. Run the Mapper Generator
 
 Execute the following command from the root of your project:
 
 ```bash
-$ path/to/div-cs-mapper-generator.exe path/to/mapper.json
+path/to/div-cs-mapper-generator.exe path/to/mapper.json
 ```
 
 This command will generate the mapping classes based on the configuration provided in mapper.json.
 
-3. Locate the Generated Files
+### 3. Locate the Generated Files
 
 The generated files will be found in the output folder specified in the JSON configuration.
 
-### Extends and customization
+## Extends and customization
 
 You can inherit the generated mapper class to override the generated methods or add new ones.
 
 ```csharp
 namespace Namespace.Of.Your.Mapper
 {
-	public class MapperClassNameToGenerate : MapperClassNameToGenerateBase
-	{
-		public override ModelClassB Map(ModelClassA model)
-		{
-			var result = base.Map(model);
-			
-			// Custom logic here
+  public class MapperClassNameToGenerate : MapperClassNameToGenerateBase
+  {
+    public override ModelClassB Map(ModelClassA model)
+    {
+      var result = base.Map(model);
 
-			return result;
-		}
-	}
+      // Custom logic here
+
+      return result;
+    }
+  }
 }
 ```
+
+## Documentation
+
+Visit [https://divengine.org](https://divengine.org)
+
