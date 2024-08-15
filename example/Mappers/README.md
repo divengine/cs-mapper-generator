@@ -1,0 +1,1 @@
+﻿Folder for output the generated mappers

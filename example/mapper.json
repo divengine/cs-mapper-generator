@@ -1,0 +1,15 @@
+{
+  "mappers": [
+    {
+      "mapper": "EmployeeMapper",
+      "outputFolder": "Mappers",
+      "namespace": "Divengine.CSMapperGenerator.Example.Mappers",
+      "classPairs": [
+        [ "Model/Address.cs", "Model/Address.cs" ],
+        [ "Model/EmployeeDto.cs", "Model/EmployeeDto.cs" ],
+        [ "Model/Employee.cs", "Model/Employee.cs" ],
+        [ "Model/Employee.cs", "Model/EmployeeDto.cs" ]
+      ]
+    }
+  ]
+}
