@@ -1,5 +1,5 @@
-﻿using Divengine.CSMapperGenerator.Example.Mappers;
-using Divengine.CSMapperGenerator.Example.Model;
+﻿using Divengine.CSharpMapper.Example.Mappers;
+using Divengine.CSharpMapper.Example.Model;
 
 var employee = new Employee
 {

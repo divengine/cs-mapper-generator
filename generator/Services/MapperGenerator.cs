@@ -1,11 +1,11 @@
-﻿using Divengine.CSMapperGenerator.Models;
+﻿using Divengine.CSharpMapper.Models;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Newtonsoft.Json;
 using System.Text;
 
-namespace Divengine.CSMapperGenerator.Services
+namespace Divengine.CSharpMapper.Services
 {
     public class MapperGenerator
     {

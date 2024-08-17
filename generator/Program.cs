@@ -22,9 +22,9 @@
  * - The program will generate the corresponding mapper classes and save them in the specified output folder.
  */
 
-using Divengine.CSMapperGenerator.Services;
+using Divengine.CSharpMapper.Services;
 
-namespace Divengine.CSMapperGenerator
+namespace Divengine.CSharpMapper
 {
     class Program
     {

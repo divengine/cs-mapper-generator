@@ -1,6 +1,6 @@
-﻿using Divengine.CSMapperGenerator.Example.Model;
+﻿using Divengine.CSharpMapper.Example.Model;
 
-namespace Divengine.CSMapperGenerator.Example.Mappers
+namespace Divengine.CSharpMapper.Example.Mappers
 {
     public class CustomEmployeeMapper: EmployeeMapper
     {

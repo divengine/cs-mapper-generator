@@ -1,7 +1,7 @@
-﻿using Divengine.CSMapperGenerator.Example.Mappers;
-using Divengine.CSMapperGenerator.Example.Model;
+﻿using Divengine.CSharpMapper.Example.Mappers;
+using Divengine.CSharpMapper.Example.Model;
 
-namespace Divengine.CSMapperGenerator.Example.Tests
+namespace Divengine.CSharpMapper.Example.Tests
 {
     public class CustomMapperSuite
     {

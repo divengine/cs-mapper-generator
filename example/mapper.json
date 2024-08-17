@@ -1,9 +1,10 @@
 {
+  "language": "csharp",
   "mappers": [
     {
       "mapper": "EmployeeMapper",
       "outputFolder": "Mappers",
-      "namespace": "Divengine.CSMapperGenerator.Example.Mappers",
+      "namespace": "Divengine.CSharpMapper.Example.Mappers",
       "classPairs": [
         [ "Model/Address.cs", "Model/Address.cs" ],
         [ "Model/EmployeeDto.cs", "Model/EmployeeDto.cs" ],

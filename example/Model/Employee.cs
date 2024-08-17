@@ -1,4 +1,4 @@
-﻿namespace Divengine.CSMapperGenerator.Example.Model
+﻿namespace Divengine.CSharpMapper.Example.Model
 {
     public class Employee
     {

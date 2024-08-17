@@ -1,4 +1,4 @@
-﻿namespace Divengine.CSMapperGenerator.Models
+﻿namespace Divengine.CSharpMapper.Models
 {
     public class MapperConfiguration
     {
